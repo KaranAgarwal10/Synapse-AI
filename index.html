@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Synapse AI | The Cross-Disciplinary Research Catalyst</title>
+    <meta name="description" content="Synapse AI: An advanced multimodal LLM application bridging data and discovery with Gemma 4 to accelerate scientific hypothesis generation.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="custom-cursor"></div>
+    <div id="scroll-progress"></div>
+
+    <!-- Dynamic Background Elements -->
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+    <div class="bg-grid"></div>
+
+    <nav class="navbar glass-panel">
+        <div class="nav-content">
+            <div class="logo">
+                <i data-lucide="network"></i>
+                <span>Synapse AI</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#problem">The Bottleneck</a></li>
+                <li><a href="#solution">Gemma 4 Solution</a></li>
+                <li><a href="#impact">The Impact</a></li>
+            </ul>
+            <a href="#demo" class="btn btn-primary">Try Synapse</a>
+        </div>
+    </nav>
+
+    <header class="hero" id="home">
+        <div class="hero-content">
+            <div class="badge fade-in-up">Powered by Gemma 4</div>
+            <h1 class="fade-in-up" style="animation-delay: 0.1s;">The Cross-Disciplinary<br><span class="text-gradient">Research Catalyst</span></h1>
+            <p class="hero-subtitle fade-in-up" style="animation-delay: 0.2s;">
+                Bridging Genetics, Pharmacology, and Clinical Data. Accelerating hypothesis generation and democratizing medical knowledge to unlock life-saving discoveries.
+            </p>
+            <div class="hero-actions fade-in-up" style="animation-delay: 0.3s;">
+                <a href="#solution" class="btn btn-primary">Explore Features <i data-lucide="arrow-right"></i></a>
+                <a href="#impact" class="btn btn-secondary">Read Case Study</a>
+            </div>
+        </div>
+        <div class="hero-visual fade-in" style="animation-delay: 0.5s;">
+            <!-- CSS Animated Neural Network representation -->
+            <div class="neural-net">
+                <div class="node node-1"></div>
+                <div class="node node-2"></div>
+                <div class="node node-3"></div>
+                <div class="node node-4"></div>
+                <div class="node node-5"></div>
+                <svg class="connections">
+                    <line x1="20%" y1="20%" x2="50%" y2="50%" class="line-pulse"></line>
+                    <line x1="80%" y1="30%" x2="50%" y2="50%" class="line-pulse delay-1"></line>
+                    <line x1="30%" y1="80%" x2="50%" y2="50%" class="line-pulse delay-2"></line>
+                    <line x1="70%" y1="70%" x2="50%" y2="50%" class="line-pulse"></line>
+                </svg>
+                <div class="core-node">
+                    <i data-lucide="brain-circuit"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="problem" class="section">
+        <div class="section-header reveal">
+            <h2>The Knowledge <span class="text-gradient-red">Bottleneck</span></h2>
+            <p>Millions of specialized research papers exist globally, yet scientific progress is stalled by fragmented data and siloed knowledge.</p>
+        </div>
+        
+        <div class="grid cards-grid">
+            <div class="card glass-panel reveal">
+                <div class="card-icon red-glow"><i data-lucide="database"></i></div>
+                <h3>Siloed Knowledge</h3>
+                <p>Breakthroughs require experts from diverse fields to manually cross-reference vast datasets—a slow and error-prone process.</p>
+            </div>
+            <div class="card glass-panel reveal" style="transition-delay: 0.1s;">
+                <div class="card-icon red-glow"><i data-lucide="users-x"></i></div>
+                <h3>Democratization Failure</h3>
+                <p>Crucial findings are locked behind complex academic jargon, rendering them inaccessible to policymakers and community health workers.</p>
+            </div>
+            <div class="card glass-panel reveal" style="transition-delay: 0.2s;">
+                <div class="card-icon red-glow"><i data-lucide="clock"></i></div>
+                <h3>Hypothesis Lag</h3>
+                <p>The sheer volume of existing research makes identifying novel connections incredibly difficult, slowing the pace of drug discovery.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="solution" class="section dark-section">
+        <div class="section-header reveal">
+            <h2>Bridging Data with <span class="text-gradient">Gemma 4</span></h2>
+            <p>Synapse AI leverages the reasoning capabilities of Gemma 4 to transform passive research into active discovery.</p>
+        </div>
+
+        <div class="feature-showcase reveal">
+            <div class="feature-nav">
+                <button class="feature-tab active" data-target="synthesis">1. Cross-Disciplinary Synthesis</button>
+                <button class="feature-tab" data-target="translation">2. Contextual Translation</button>
+                <button class="feature-tab" data-target="hypothesis">3. Hypothesis Generation</button>
+            </div>
+            <div class="feature-content glass-panel">
+                <div class="feature-pane active" id="synthesis">
+                    <div class="feature-text">
+                        <h3>Cross-Disciplinary Synthesis Engine</h3>
+                        <p>Ingests diverse datasets: PubMed abstracts, GWAS data, clinical trials, and lab notes. Gemma 4 identifies non-obvious, statistically significant correlations across genetics, clinical medicine, and pharmacology.</p>
+                        <ul class="feature-list">
+                            <li><i data-lucide="check-circle-2"></i> Uncover hidden relationships</li>
+                            <li><i data-lucide="check-circle-2"></i> Process multimodal data streams</li>
+                            <li><i data-lucide="check-circle-2"></i> Suggest novel therapeutic targets</li>
+                        </ul>
+                    </div>
+                    <div class="feature-image">
+                        <div class="drag-drop-sandbox glass-subpanel">
+                            <h4>Drag Data Streams</h4>
+                            <div class="draggable-items">
+                                <div class="data-pill" draggable="true" data-type="genomics"><i data-lucide="dna"></i> Genomics</div>
+                                <div class="data-pill" draggable="true" data-type="pharmacology"><i data-lucide="microscope"></i> Pharmacology</div>
+                                <div class="data-pill" draggable="true" data-type="clinical"><i data-lucide="activity"></i> Clinical</div>
+                            </div>
+                            
+                            <div class="synthesis-core dropzone" id="synthesis-core">
+                                <div class="core-placeholder">Drop at least 2 streams here</div>
+                            </div>
+                            
+                            <button id="btn-synthesize" class="btn btn-primary" disabled>Analyze Data</button>
+                            
+                            <div id="synthesis-result" class="result-box hidden">
+                                <p class="text-gradient"><strong>Correlation Found:</strong></p>
+                                <p id="sync-result-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="feature-pane" id="translation">
+                    <div class="feature-text">
+                        <h3>Contextual Translation & Personalization</h3>
+                        <p>Translates highly technical jargon into language appropriate for the target audience.</p>
+                        
+                        <div class="translation-input-area" style="margin-top: 1rem;">
+                            <textarea id="translation-input-text" placeholder="Paste complex medical/scientific text here..." rows="3" style="width: 100%; background: rgba(0,0,0,0.5); border: 1px solid var(--glass-border); color: var(--text-main); padding: 0.8rem; border-radius: 8px; font-family: var(--font-body); resize: vertical;"></textarea>
+                        </div>
+
+                        <div class="translation-tabs" style="display: flex; align-items: center; gap: 1rem;">
+                            <div style="display: flex; gap: 0.5rem;">
+                                <button class="t-tab active" data-t-target="researcher">Researcher</button>
+                                <button class="t-tab" data-t-target="clinician">Clinician</button>
+                                <button class="t-tab" data-t-target="policy">Public Policy</button>
+                            </div>
+                            <button id="btn-translate" class="btn btn-primary" style="padding: 0.4rem 1rem; font-size: 0.9rem;">Translate</button>
+                        </div>
+                        
+                        <div class="translation-result glass-subpanel" id="t-result">
+                            <p>Select an audience and click Translate to see the result.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="feature-pane" id="hypothesis">
+                    <div class="feature-text">
+                        <h3>Automated Hypothesis Generation</h3>
+                        <p>Based on pattern recognition across all ingested data, Synapse AI proposes novel, testable hypotheses that bridge multiple scientific disciplines.</p>
+                        <div class="hypothesis-sandbox glass-subpanel">
+                            <div class="input-group">
+                                <input type="text" id="hypothesis-input" placeholder="Enter topic (e.g., Alzheimer's, Cardiology)..." autocomplete="off">
+                                <button id="btn-generate" class="btn btn-secondary">Generate</button>
+                            </div>
+                            <div class="hypothesis-card glow-border hidden" id="hypothesis-output-container">
+                                <div class="h-header"><i data-lucide="bot"></i> Gemma 4 Hypothesis</div>
+                                <p class="h-text" id="hypothesis-typing-area"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="impact" class="section">
+        <div class="section-header reveal">
+            <h2>Accelerated Discovery: <br>A Case Study</h2>
+        </div>
+
+        <div class="story-container reveal">
+            <div class="story-character">
+                <div class="avatar"><i data-lucide="user"></i></div>
+                <div>
+                    <h4>Dr. Anya Sharma</h4>
+                    <span class="role">Molecular Biologist, Global Health Institute</span>
+                </div>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-icon red"><i data-lucide="x-circle"></i></div>
+                    <div class="timeline-content glass-panel">
+                        <h4>The Challenge</h4>
+                        <p>Spending months manually sifting through terabytes of genomic and clinical data for a rapidly spreading neurodegenerative disease. Current treatments failing.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-icon pulse"><i data-lucide="cpu"></i></div>
+                    <div class="timeline-content glass-panel highlighted">
+                        <h4>The Synapse AI Solution</h4>
+                        <p>Data repository fed into Synapse AI. Within 48 hours, Gemma 4 highlights a previously overlooked link between an environmental exposure factor and a specific protein mutation.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-icon green"><i data-lucide="flask-conical"></i></div>
+                    <div class="timeline-content glass-panel">
+                        <h4>The Result</h4>
+                        <p>Within six months, the team validates an AI-suggested pathway, discovering a novel therapeutic target for patients previously considered untreatable.</p>
+                        <p class="impact-quote">"Synapse AI didn't just process data; it accelerated human intuition."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section glass-panel reveal">
+        <h2>Transform Passive Research <br>Into Active Discovery</h2>
+        <p>Join the next generation of scientific innovation powered by Gemma 4.</p>
+        <div class="hero-actions" style="justify-content: center; margin-top: 2rem;">
+            <a href="#" class="btn btn-primary">Request Beta Access</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="logo">
+                <i data-lucide="network"></i>
+                <span>Synapse AI</span>
+            </div>
+            <p>Democratizing medical knowledge and accelerating hypothesis generation.</p>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Synapse AI. Powered by Gemma 4.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Initialize Lucide Icons
+        lucide.createIcons();
+    </script>
+</body>
+</html>
